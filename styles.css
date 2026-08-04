@@ -1013,6 +1013,10 @@ audio {
     text-decoration: underline;
 }
 
+.mobile-nav-cta{
+    display:none;
+}
+
 /* ==========================================================================
    RESPONSIVE
    ========================================================================== */
@@ -1061,13 +1065,25 @@ audio {
         transform: translateY(0);
         pointer-events: auto;
     }
+	
+	.mobile-nav-cta{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    width:100%;
+    margin-top:20px;
+}
+
+.mobile-nav-cta .btn{
+    width:100%;
+    justify-content:center;
+}
 }
 
 @media (max-width: 760px) {
-    .nav-cta .btn span,
-    .nav-email-btn span {
-        display: none;
-    }
+    .nav-cta{
+    display:none;
+}
 
     .nav-email-btn {
         padding: 0.6rem;

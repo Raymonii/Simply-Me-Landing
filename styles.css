@@ -29,19 +29,23 @@
     --ease: cubic-bezier(.22, .61, .36, 1);
 }
 
-html,
-body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-*,
-*::before,
-*::after {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--nav-h);
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--ink);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
 
 
 img {

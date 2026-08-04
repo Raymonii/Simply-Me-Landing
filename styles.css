@@ -347,7 +347,7 @@ button {
 
 .container-top {
     background: center / cover no-repeat url(assets/images/container-top-bg.svg);
-    min-height: 100vh;
+    min-height: 167vh;
     height: auto;
     width: 100%;
 }
@@ -368,6 +368,7 @@ button {
     font-size: clamp(2.2rem, 7vw, 72px);
     width: 100%;
     max-width: 100%;
+	opacity:0;
 }
 
 .title-description {
@@ -376,6 +377,7 @@ button {
     padding-left: clamp(0rem, 5vw, 14.5rem);
     width: 100%;
     max-width: 100%;
+	opacity:0;
 }
 
 .hero-title {

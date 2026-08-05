@@ -319,7 +319,7 @@ button {
     display: block;
     height: 2px;
     width: 100%;
-    background: var(--ink);
+    background: #000;
     border-radius: 2px;
     transition: transform 0.25s, opacity 0.25s;
 }
@@ -1188,10 +1188,11 @@ audio {
     left: 15px;
     width: 160px;
     z-index: 100;
+	filter: brightness(0);
 }
 
 .learnmore-button {
-        display: none;
+        display: none !important;
     }
 
 .mailing-list-button {
@@ -1262,7 +1263,7 @@ audio {
     display: block;
     height: 2px;
     width: 100%;
-    background: #5096ec;
+    background: #000;
     border-radius: 2px;
     transition: transform 0.25s, opacity 0.25s;
 }

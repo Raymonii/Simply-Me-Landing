@@ -888,9 +888,7 @@ audio {
     z-index: 9999;
     padding: 20px;
     box-sizing: border-box;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.35s;
+	transition: 0.35s;
 }
 
 .modal-overlay.show {

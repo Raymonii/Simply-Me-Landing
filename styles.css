@@ -1176,7 +1176,8 @@ audio {
     }
 
     .container-top {
-        min-height: auto;
+        background: center / cover no-repeat url(assets/images/mobile-header-bg-1.svg);
+        min-height: 167vh;   /* match your desktop value from the base .container-top rule */
         height: auto;
     }
 

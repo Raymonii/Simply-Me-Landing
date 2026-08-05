@@ -1190,6 +1190,10 @@ audio {
     z-index: 100;
 }
 
+.learnmore-button {
+        display: none;
+    }
+
 .mailing-list-button {
     position: absolute;
     top: 20px;

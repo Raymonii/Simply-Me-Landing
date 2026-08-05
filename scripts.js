@@ -226,6 +226,12 @@ function initMobileNav() {
    Init
    ========================================================================== */
 
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        openJoinModal();
+    }, 600);
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     new ImageSlideshow();
     initScrollReveal();

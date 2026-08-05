@@ -889,6 +889,8 @@ audio {
     padding: 20px;
     box-sizing: border-box;
 	transition: 0.35s;
+	opacity: 0; 
+	visibility: hidden;
 }
 
 .modal-overlay.show {

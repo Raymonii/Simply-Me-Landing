@@ -1191,9 +1191,7 @@ audio {
 	filter: brightness(0);
 }
 
-.learnmore-button {
-        display: none !important;
-    }
+
 
 .mailing-list-button {
     position: absolute;
